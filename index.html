@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>GFX - Lab1c 2023 | a12136872</title>
+	<link rel="stylesheet" type="text/css" href="css/styles-page.css">
+	<link rel="stylesheet" type="text/css" href="css/styles-game.css">
+	<script src="Assets/Code/main.js" type="module" defer></script>
+	<script type="module">
+		import { Game } from "./Assets/DLib/Game.js";
+		window.Game = Game;
+		window.GameInstance = Game.INSTANCE;
+	  </script>
+</head>
+
+<body>
+	<div class="center" style="width: 70%">
+		<h2>GFX - Lab1c 2023</h2>
+		<div id="canvas-wrapper">
+			<canvas id="canvas"></canvas>
+			<div id="canvas-overlay"></div>
+		</div>
+		<div class="left" style="width: 70%">
+			<h2>Keybindings</h2>
+		</div>
+	</div>
+</body>
+
+</html>

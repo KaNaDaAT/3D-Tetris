@@ -1,0 +1,41 @@
+ - Extension for Animation ...
+ - Physics
+   - Physic Raycast
+   - Physics Boxes
+   - Colliders
+   - Rigidbodys 
+ - Math / Custom Types
+   - Quaternions
+     - Inverse
+     - Lerp
+     - Slerp
+   - Matrix
+   - Vectors
+     - Lerp
+     - LookAt
+ - UI
+   - Buttons
+   - Slider
+   - Text
+   - Enhance Custom so you can retrive Bounds and such and 'fit font-size'.
+ - Static where no INSTANCE needed
+   - Time
+   - Game
+   - Scene Manager
+ - Cleanup
+   - Seperate Shader and Render Logic from GameLoop out into a seperate RenderPipeline
+   - Game should have setup Method which takes RenderPipeline as argument
+   - Loop
+   - static methods extracting?
+ - Utility
+   - TypeCheck rethinking because it rn is black magic
+   - Converters
+   - CreateInstance Method that automatically creates an instance of a type if its not already an object (cleaner code)
+ - Scene 
+   - Scene Manager
+   - Scene Builder
+   - Scene file Format
+ - PropertyStore: A Component that does not update but is used for prefabs to store data for other components.
+ - AttachabeComponent should be a "Updatable Component". Every Component can be attached but not every is actually updateable. Some may just store data! PropertyStore Hanlder for example
+ - ColorMode extract
+ - Rotations .... argh

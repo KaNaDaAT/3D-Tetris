@@ -1,0 +1,36 @@
+h2 {
+	text-align: center;
+	color: #1558a5;
+}
+
+p {
+	text-align: left;
+	color: #1e7fee;
+}
+
+div {
+	width: 100%;
+	height: 100%;
+}
+
+
+.center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.left {
+	display: block;
+	flex-direction: row;
+	justify-content: left;
+	align-items: left;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
